@@ -59,7 +59,8 @@ void set_libgame_to_be_reloaded(int unused_arg_for_sigaction) {
 #endif // HOTRELOAD
 
 int main(void) {
-    InitWindow(640, 480, "My Raylib App");
+	SetConfigFlags(FLAG_WINDOW_RESIZABLE);
+    InitWindow(640, 480, "Percolation");
 
     if (!load_libgame()) return 1;
 

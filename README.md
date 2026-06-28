@@ -1,5 +1,5 @@
-# name-of-your-project
-Description of your project
+# Percolation
+Simple implementation of [percolation](https://www.youtube.com/watch?v=a-767WnbaC) in C
 
 ## Quick Start
 This project uses the [nob](https://github.com/tsoding/nob.h) build system.
